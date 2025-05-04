@@ -82,6 +82,8 @@ pass the api call from front end to backend.
 simplifying api endpoint urls and.
 install front-end dependencies to enhance your 
 development experience.
+    "proxy": "http://localhost:5000", not work but
+  "proxy": "https://mern.anchortrends.com", works
 
 {
     "name": "react_sql_html",
