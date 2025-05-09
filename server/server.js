@@ -16,7 +16,6 @@ const db = mysql.createConnection({
   database: "students",
 });
 
-
 app.post("/add_user", (req, res) => {
   const sql =
     "INSERT INTO student_details (`name`,`email`,`age`,`gender`) VALUES (?, ?, ?, ?)";

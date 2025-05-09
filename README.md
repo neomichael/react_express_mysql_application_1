@@ -106,6 +106,9 @@ by typing in terminal
 
 "npm install axios bootstrap react-router-dom"
 
+solve     Cannot find module 'react-router-dom' from 'src/App.js' issue
+npm install react-router-dom --save
+
 Step016. npm start; wait and check the browser react page display
 
 Step017. customize app.js file under client/src directory.
